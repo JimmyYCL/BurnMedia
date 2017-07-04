@@ -29,6 +29,9 @@ namespace BurnMedia
         public MainForm()
         {
             InitializeComponent();
+
+            //Jimmy:20170704 detect media type during loading form
+            Load += buttonDetectMedia_Click;
         }
 
         /// <summary>
